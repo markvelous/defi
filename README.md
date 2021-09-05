@@ -42,12 +42,6 @@ Have a bug or an issue with this template? [Open a new issue](https://github.com
 
 Tailwind Toolbox is based on the [Tailwind CSS](https://www.tailwindcss.com) framework created by [Adam Wathan](https://twitter.com/adamwathan), [Jonathan Reinink](https://twitter.com/reinink), [David Hemphill](https://twitter.com/davidhemphill) and [Steve Schoger](https://twitter.com/steveschoger)
 
-## Contributors
+## License
 
-Thanks for all the tips and PR's and Vue version
-* [@diomed](https://github.com/diomed)
-
-
-## Copyright and License
-
-Copyright 2018-2019 Astrava.Solutions Ltd. Code released under the MIT license.
+Code released under the MIT license.
