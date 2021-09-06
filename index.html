@@ -22,10 +22,11 @@
 		style="background-image:url(./img/Cal.gif); height: 60vh; max-height:460px;">
 		<div class="container max-w-4xl mx-auto pt-16 md:pt-32 text-center break-normal">
 			<!--Title-->
-			<p class="text-white font-extrabold text-3xl md:text-5xl">
-				&#127913; Remarkable Mad { White } Hatter
-			</p><br />
-			<p class="text-xl md:text-2xl text-gray-500">My Blockchain Learning Journey</p>
+			<a class="text-gray-300 font-extrabold text-3xl md:text-5xl">
+				Remarkable &#127913; Mad </a> <a class="text-white font-extrabold text-3xl md:text-5xl">{ White } </a><a
+				class="text-gray-300 font-extrabold text-3xl md:text-5xl">Hatter
+			</a>
+			<p class="text-xl md:text-2xl text-gray-500"><br />My Blockchain Learning Journey</p>
 		</div>
 	</div>
 
@@ -76,10 +77,10 @@
 								<li>&#9989; Frontend should be minimally allow a swap between two tokens (2 pts)</li>
 								<li>&#9989; Integrated WalletConnect (1 pt)</li>
 								<li>&#9989; Aesthetic Design (2 pts)</li>
-								<li>&#x1f534; Advanced swap information (2 pts)</li>
-								<li>&#x1f534; Testing (3 pts)</li>
-								<li>&#x1f534; UI for adding new liquidity pools (3 pts)</li>
-								<li>&#x1f534; Multihop Swaps (3 pts)</li>
+								<li>❌ Advanced swap information (2 pts)</li>
+								<li>❌ Testing (3 pts)</li>
+								<li>❌ Multihop Swaps (3 pts)</li>
+								<li>&#9989; UI for adding new liquidity pools (3 pts)</li>
 								<li>&#9989; Anything (up to 5 pts depending on complexity)</li>
 								<li>&#9989; Alternate project: Automated flash loan arbitrage bot (up to 5 pts)</li>
 							</ul>
@@ -89,8 +90,8 @@
 						<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow-lg p-6">
 							<div class="flex items-center justify-between">
 								<img class="w-8 h-8 rounded-full mr-4 avatar" data-tippy-content="RJ" src="./img/rj.png"
-									alt="Avatar of Author">
-								<p class="text-gray-600 text-xs md:text-sm"><i>"The router will get angry"</i></p>
+									title="Rui Jie" alt="RJ">
+								<p class="text-gray-600 text-xs md:text-sm"><i>"Don't make the routers angry!"</i></p>
 							</div>
 						</div>
 					</div>
@@ -105,29 +106,51 @@
 					<!--1/3 col -->
 					<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
 						<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
-							<a href="dex.html" class="flex flex-wrap no-underline hover:no-underline">
-								<img src="./img/dex.jpg" class="h-64 w-full rounded-t pb-6">
-								<p class="w-full text-gray-600 text-xs md:text-sm px-6">LAB 5: MAKE A DEX</p>
-								<div class="w-full font-bold text-xl text-gray-900 px-6">MUTUAL SWAP DEX</div>
-								<ul class="text-gray-800 font-serif text-base px-6 mb-5"><br />
-									<li>&#x2022; Deployed DEX smart contracts for the mutual swapping of two tokens (1YI
-										and 2ER) on Rinkeby</li>
-									<li>&#x2022; Integrated MetaMask</li>
-									<li>&#x2022; Enhanced the design</li>
-									<li>&#x2022; Hosted DEX on Netlify</li>
-								</ul>
-								<button
-									class="mx-auto lg:mx-0 hover:underline bg-gray-200 text-gray-800 font-bold rounded-full my-4 py-3 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-									<a href="https://github.com/markvelous/dex" target="_blank"
-										class="no-underline hover:underline text-gray-800 hover:text-pink-500">Source
-										codes</a>
-								</button>
-							</a>
+
+							<img src="./img/liquiditypool.jpg" class="h-64 w-full rounded-t pb-6">
+							<p class="w-full text-gray-600 text-xs md:text-sm px-6">MAKE A SIMPLE DEX</p>
+							<div class="w-full font-bold text-xl text-gray-900 px-6">2-TOKEN &#128260; DEX</div>
+							<p class="text-gray-800 font-serif text-base px-6 mb-5"><br />Developed a skeletal DEX using
+								Solidity smart contracts to create an automated market maker that enables the mutual
+								swapping of two ERC20 tokens (1YI 一
+								& 2ER 二). Design was embellished with Metamask wallet integrated. The smart contracts
+								are deployed on Rinkeby Testnet & the DApp is hosted on Netlify.
+							</p>
+						</div>
+						<div class="flex-none bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
+
+							<button
+								class="ml-5 mt-5 mb-2 text-sm hover:underline bg-gray-300 text-gray-800 rounded-b py-2 px-4 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+								<a href="https://rinkeby.etherscan.io/address/0xF117117c00b0E5c714267CB613daCF0Dd45ae94c"
+									target="_blank"
+									class="no-underline hover:underline text-gray-800 hover:text-pink-500">AMM</a>
+							</button>
+							<button
+								class="ml-2 mt-5 mb-2 text-sm hover:underline bg-gray-200 text-gray-800 rounded-b py-2 px-4 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+								<a href="0x5bA2C1c111cbEF4fCA70bEB9d4CD0b5F04E6c14b" target="_blank"
+									class="no-underline hover:underline text-gray-800 hover:text-pink-500">1YI</a>
+							</button>
+							<button
+								class="ml-2 mt-5 mb-2 text-sm hover:underline bg-gray-200 text-gray-800 rounded-b py-2 px-4 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+								<a href="0x94CF34b37B9f68Aa6F790065b5CB6DFA857368Ed" target="_blank"
+									class="no-underline hover:underline text-gray-800 hover:text-pink-500">2ER</a>
+							</button>
+							<button
+								class="ml-5 mt-2 mb-5 text-sm hover:underline bg-blue-300 text-gray-800 rounded-b py-2 px-4 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+								<a href="https://github.com/markvelous/dex" target="_blank"
+									class="no-underline hover:underline text-gray-800 hover:text-pink-500">Source
+									codes</a>
+							</button>
+							<button
+								class="ml-2 mt-2 mb-5 text-sm hover:underline bg-green-300 text-gray-800 rounded-b py-2 px-4 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+								<a href="https://dexterous.netlify.app" target="_blank"
+									class="no-underline hover:underline text-gray-800 hover:text-pink-500">Netlify</a>
+							</button><br />
 						</div>
 						<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow-lg p-6">
 							<div class="flex items-center justify-between">
-								<img class="w-8 h-8 rounded-full mr-4 avatar" data-tippy-content="Author Name"
-									src="./img/remarkable.png" alt="Avatar of Author">
+								<img class="w-8 h-8 rounded-full mr-4 avatar" src="./img/remarkable.png"
+									title="Mark Tan" alt="Mark Tan">
 								<p class="text-gray-600 text-xs md:text-sm"><i>My first DEX</i></p>
 							</div>
 						</div>
@@ -137,24 +160,37 @@
 					<!--1/3 col -->
 					<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
 						<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
-							<a href="#" class="flex flex-wrap no-underline hover:no-underline">
-								<img src="https://source.unsplash.com/collection/3106804/800x600"
-									class="h-64 w-full rounded-t pb-6">
-								<p class="w-full text-gray-600 text-xs md:text-sm px-6">GETTING STARTED</p>
-								<div class="w-full font-bold text-xl text-gray-900 px-6">WATCHER
-								</div>
-								<p class="text-gray-800 font-serif text-base px-6 mb-5"><br />
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. ipsum dolor sit amet,
-									consectetur adipiscing elit. Aliquam at ip Aliquam at ipsum eu nunc commodo posuere
-									et sit amet ligula.
-								</p>
-							</a>
+							<img src="./img/0.jpg" class="h-64 w-full rounded-t pb-6">
+							<p class="w-full text-gray-600 text-xs md:text-sm px-6">SET UP AN INSTANT DEX</p>
+							<div class="w-full font-bold text-xl text-gray-900 px-6"><a href="https://0x.org/"
+									target="_blank"
+									class="no-underline hover:underline text-gray-800 hover:text-pink-500">0x DEX</a> 🔗
+							</div>
+							<p class="text-gray-800 font-serif text-base px-6 mb-5"><br />Experimented with 0x, which
+								enabled peer-to-peer exchange of Ethereum tokens. Positioned as the 'Craiglist for
+								cryptos', 0x allowed developers to build personal cryptocurrency exchanges for offline
+								order relay & online settlement. Oh...and it's mostly codeless.</p>
+						</div>
+						<div class="flex-none bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
+							<button
+								class="ml-5 mt-2 mb-5 text-sm hover:underline bg-blue-300 text-gray-800 rounded-b py-2 px-4 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+								<a href="https://github.com/markvelous/0x" target="_blank"
+									class="no-underline hover:underline text-gray-800 hover:text-pink-500">Source
+									codes</a>
+							</button>
+							<button
+								class="ml-2 mt-2 mb-5 text-sm hover:underline bg-pink-300 text-gray-800 rounded-b py-2 px-4 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+								<a href="http://v3-kovan-demo.s3-website-us-east-1.amazonaws.com/#/erc20/"
+									target="_blank"
+									class="no-underline hover:underline text-gray-800 hover:text-pink-500">Kovan Testnet
+									Demo</a>
+							</button>
 						</div>
 						<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow-lg p-6">
 							<div class="flex items-center justify-between">
-								<img class="w-8 h-8 rounded-full mr-4 avatar" data-tippy-content="Author Name"
-									src="./img/remarkable.png" alt="Avatar of Author">
-								<p class="text-gray-600 text-xs md:text-sm">1 MIN READ</p>
+								<img class="w-8 h-8 rounded-full mr-4 avatar" src="./img/remarkable.png"
+									title="Mark Tan" alt="Mark Tan">
+								<p class="text-gray-600 text-xs md:text-sm">1 MIN TO LAUNCH</p>
 							</div>
 						</div>
 					</div>
@@ -162,22 +198,32 @@
 					<!--1/3 col -->
 					<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
 						<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
-							<a href="#" class="flex flex-wrap no-underline hover:no-underline">
-								<img src="https://source.unsplash.com/collection/539527/800x600"
+							
+								<img src="./img/spy.jpg"
 									class="h-64 w-full rounded-t pb-6">
-								<p class="w-full text-gray-600 text-xs md:text-sm px-6">GETTING STARTED</p>
-								<div class="w-full  font-bold text-xl text-gray-900 px-6">0x
+								<p class="w-full text-gray-600 text-xs md:text-sm px-6">CREATE AN ARBITRAGE HUNTER</p>
+								<div class="w-full  font-bold text-xl text-gray-900 px-6">DEX WATCHER
 								</div>
 								<p class="text-gray-800 font-serif text-base px-6 mb-5"><br />
-									Lorem ipsum eu nunc commodo posuere et sit amet ligula.
+									A simple & non-invasive DEX watcher to monitor prices of selected cryptos on Uniswap & Kyber for arbitrage opportunities. As speed is of the essence in arbitrage exploitation, it is advisable to focus
+									on just a few assets on major liquidity pools for greater chance of finding profitable arbitrages (ie. earnings less fees).
 								</p>
-							</a>
+							
+						</div>
+						<div class="flex-none bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
+							<button
+								class="ml-5 mt-2 mb-5 text-sm hover:underline bg-blue-300 text-gray-800 rounded-b py-2 px-4 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+								<a href="https://github.com/markvelous/bot" target="_blank"
+									class="no-underline hover:underline text-gray-800 hover:text-pink-500">Source
+									codes</a>
+							</button>
+							
 						</div>
 						<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow-lg p-6">
 							<div class="flex items-center justify-between">
-								<img class="w-8 h-8 rounded-full mr-4 avatar" data-tippy-content="Author Name"
-									src="./img/remarkable.png" alt="Avatar of Author">
-								<p class="text-gray-600 text-xs md:text-sm">1 MIN READ</p>
+								<img class="w-8 h-8 rounded-full mr-4 avatar" src="./img/remarkable.png"
+									title="Mark Tan" alt="Mark Tan">
+								<p class="text-gray-600 text-xs md:text-sm"><i>My first voyeur bot</i></p>
 							</div>
 						</div>
 					</div>
@@ -187,9 +233,9 @@
 					<div class="w-full md:w-1/2 p-6 flex flex-col flex-grow flex-shrink">
 						<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
 							<a href="#" class="flex flex-wrap no-underline hover:no-underline">
-								<img src="https://source.unsplash.com/collection/3657445/800x600"
+								<img src="./img/arbitrage.jpg"
 									class="h-full w-full rounded-t pb-6">
-								<p class="w-full text-gray-600 text-xs md:text-sm px-6">GETTING STARTED</p>
+								<p class="w-full text-gray-600 text-xs md:text-sm px-6">DEVELOP A BETTER DEX </p>
 								<div class="w-full font-bold text-xl text-gray-900 px-6">MV DEX
 								</div>
 								<p class="text-gray-800 font-serif text-base px-6 mb-5"><br />
@@ -197,10 +243,19 @@
 								</p>
 							</a>
 						</div>
+												<div class="flex-none bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
+							<button
+								class="ml-5 mt-2 mb-5 text-sm hover:underline bg-blue-300 text-gray-800 rounded-b py-2 px-4 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+								<a href="https://github.com/markvelous/dex2" target="_blank"
+									class="no-underline hover:underline text-gray-800 hover:text-pink-500">Source
+									codes</a>
+							</button>
+							
+						</div>
 						<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow-lg p-6">
 							<div class="flex items-center justify-between">
-								<img class="w-8 h-8 rounded-full mr-4 avatar" data-tippy-content="Author Name"
-									src="./img/remarkable.png" alt="Avatar of Author">
+								<img class="w-8 h-8 rounded-full mr-4 avatar" src="./img/remarkable.png"
+									title="Mark Tan" alt="Mark Tan">
 								<p class="text-gray-600 text-xs md:text-sm">1 MIN READ</p>
 							</div>
 						</div>
@@ -210,20 +265,29 @@
 					<div class="w-full md:w-1/2 p-6 flex flex-col flex-grow flex-shrink">
 						<div class="flex-1 flex-row bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
 							<a href="#" class="flex flex-wrap no-underline hover:no-underline">
-								<img src="https://source.unsplash.com/collection/764827/800x600"
+								<img src="./img/cashflow.jpg"
 									class="h-full w-full rounded-t pb-6">
-								<p class="w-full text-gray-600 text-xs md:text-sm px-6">GETTING STARTED</p>
-								<div class="w-full font-bold text-xl text-gray-900 px-6">ARBITRAGE BOT
+								<p class="w-full text-gray-600 text-xs md:text-sm px-6">FABULOUS PASSIVE INCOME</p>
+								<div class="w-full font-bold text-xl text-gray-900 px-6">FLASHLOAN ARBITRAGE BOT
 								</div>
 								<p class="text-gray-800 font-serif text-base px-6 mb-5"><br />
 									Lorem ipsum eu nunc commodo posuere et sit amet ligula.
 								</p>
 							</a>
 						</div>
+						<div class="flex-none bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
+							<button
+								class="ml-5 mt-2 mb-5 text-sm hover:underline bg-blue-300 text-gray-800 rounded-b py-2 px-4 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+								<a href="https://github.com/markvelous/dex2" target="_blank"
+									class="no-underline hover:underline text-gray-800 hover:text-pink-500">Source
+									codes</a>
+							</button>
+							
+						</div>
 						<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow-lg p-6">
 							<div class="flex items-center justify-between">
-								<img class="w-8 h-8 rounded-full mr-4 avatar" data-tippy-content="Author Name"
-									src="./img/remarkable.png" alt="Avatar of Author">
+								<img class="w-8 h-8 rounded-full mr-4 avatar" src="./img/remarkable.png"
+									title="Mark Tan" alt="Mark Tan">
 								<p class="text-gray-600 text-xs md:text-sm">1 MIN READ</p>
 							</div>
 						</div>
@@ -235,9 +299,9 @@
 					<div class="w-full md:w-2/3 p-6 flex flex-col flex-grow flex-shrink">
 						<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
 							<a href="#" class="flex flex-wrap no-underline hover:no-underline">
-								<img src="https://source.unsplash.com/collection/325867/800x600"
+								<img src="./img/atom.png"
 									class="h-full w-full rounded-t pb-6">
-								<p class="w-full text-gray-600 text-xs md:text-sm px-6">GETTING STARTED</p>
+								<p class="w-full text-gray-600 text-xs md:text-sm px-6">CROSS-CHAIN DEX</p>
 								<div class="w-full font-bold text-xl text-gray-900 px-6">ATOMIC SWAP
 								</div>
 								<p class="text-gray-800 font-serif text-base px-6 mb-5"><br />
@@ -247,8 +311,8 @@
 						</div>
 						<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow-lg p-6">
 							<div class="flex items-center justify-between">
-								<img class="w-8 h-8 rounded-full mr-4 avatar" data-tippy-content="Author Name"
-									src="./img/remarkable.png" alt="Avatar of Author">
+								<img class="w-8 h-8 rounded-full mr-4 avatar" src="./img/remarkable.png"
+									title="Mark Tan" alt="Mark Tan">
 								<p class="text-gray-600 text-xs md:text-sm">1 MIN READ</p>
 							</div>
 						</div>
@@ -258,25 +322,24 @@
 					<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
 						<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
 							<a href="https://www.apriorit.com/dev-blog/684-blockchain-atomic-swaps-to-implement-a-decentralized-exchange-dex"
-								target="_blank"
-								class=" flex flex-wrap no-underline hover:no-underline">
+								target="_blank" class=" flex flex-wrap no-underline hover:no-underline">
 								<img src="./img/bulbs.jpg" class="h-full w-full rounded-t pb-6">
-								<p class="w-full text-gray-600 text-xs md:text-sm px-6">ATOMIC SWAPS</p>
+								<p class="w-full text-gray-600 text-xs md:text-sm px-6">MORE ABOUT HTLC</p>
 								<div class="w-full font-bold text-xl text-gray-900 px-6">How to Use Atomic Swaps to
 									Implement a Decentralized Exchange (DEX)
 								</div>
 								<p class="text-gray-800 font-serif text-base px-6 mb-5"><br />
-									An excellent article explaining how timelocks and hashlocks are used in atomic swaps
-									to create non-custodial decentralised exchange on the fly.<br />
-									<br />TL;DL
+									(tl;dr) An excellent article explaining how timelocks and hashlocks are used in
+									atomic swaps
+									to create non-custodial decentralised exchange on the fly.
 								</p>
 							</a>
 						</div>
 						<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow-lg p-6">
 							<div class="flex items-center justify-between">
-								<img class="w-8 h-8 rounded-full mr-4 avatar" data-tippy-content="Anne Korunska"
+								<img class="w-8 h-8 rounded-full mr-4 avatar"
 									src="https://www.apriorit.com/images/articles/Authors/anna-korunska.png"
-									alt="Avatar of Author">
+									title="Anne Korunska" alt="Anne Korunska">
 								<p class="text-gray-600 text-xs md:text-sm">30 MIN READ</p>
 							</div>
 						</div>
@@ -291,15 +354,17 @@
 			<div class="flex w-full items-center font-sans p-8 md:p-24">
 				<img class="w-10 h-10 rounded-full mr-4" src="./img/remarkable.png" alt="Avatar of Author">
 				<div class="flex-1">
-					<p class="text-base font-bold text-base md:text-xl leading-none">Remakable</p>
-					<p class="text-gray-600 text-xs md:text-base">Based on Ghost's Casper theme at <a
-							class="text-gray-800 hover:text-green-500 no-underline border-b-2 border-green-500"
+					<p class="text-base font-bold text-base md:text-xl leading-none">C'est moi Remakable</p>
+					<p class="text-gray-600 text-xs md:text-base">This website is developed using Ghost's Casper theme
+						at <a class="text-gray-800 hover:text-green-500 no-underline border-b-2 border-green-500"
 							href="https://www.tailwindtoolbox.com" target="_blank">TailwindToolbox.com</a></p>
 				</div>
 				<div class="justify-end">
 					<button
-						class="bg-transparent border border-gray-500 hover:border-green-500 text-xs text-gray-500 hover:text-green-500 font-bold py-2 px-4 rounded-full href="
-						https://www.tailwindtoolbox.com">Source codes</button>
+						class="bg-transparent border border-gray-500 hover:border-green-500 text-xs text-gray-500 hover:text-green-500 font-bold py-2 px-4 rounded-full">
+						<a href="https://github.com/markvelous/madhatter" target="_blank"
+							class="no-underline hover:underline text-gray-800 hover:text-yellow-500">Source codes</a>
+					</button>
 				</div>
 			</div>
 			<!--/Author-->
@@ -315,27 +380,9 @@
 			<div class="w-full mx-auto flex flex-wrap items-center">
 				<div class="flex w-full md:w-1/2 justify-center md:justify-start text-white font-extrabold">
 					<a class="text-gray-900 no-underline hover:text-gray-900 hover:no-underline" href="#">
-						<span class="text-base text-gray-200">&#127913; Remarkable Mad { White } Hatter</span>
+						<span class="text-base text-yellow-500">&#127913; Remarkable Mad </span><span
+							class="text-white">{ White }</span> <span class="text-yellow-500">Hatter</span>
 					</a>
-				</div>
-				<div class="flex w-full pt-2 content-center justify-between md:w-1/2 md:justify-end">
-					<ul class="list-reset flex justify-center flex-1 md:flex-none items-center">
-						<li>
-							<a class="inline-block py-2 px-3 text-white no-underline" href="#">Active</a>
-						</li>
-						<li>
-							<a class="inline-block text-gray-600 no-underline hover:text-gray-200 hover:underline py-2 px-3"
-								href="#">link</a>
-						</li>
-						<li>
-							<a class="inline-block text-gray-600 no-underline hover:text-gray-200 hover:underline py-2 px-3"
-								href="#">link</a>
-						</li>
-						<li>
-							<a class="inline-block text-gray-600 no-underline hover:text-gray-200 hover:underline py-2 px-3"
-								href="#">link</a>
-						</li>
-					</ul>
 				</div>
 			</div>
 
