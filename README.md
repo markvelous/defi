@@ -1,11 +1,11 @@
-# [Tailwind Toolbox](https://www.tailwindtoolbox.com/) - [Ghostwind](https://www.tailwindtoolbox.com/templates/ghostwind)
+# INTERMEDIATE BLOCKCHAIN FINAL ASSIGNMENT
 
-[Ghostwind Template](https://www.tailwindtoolbox.com/templates/ghostwind) is a clone of the Casper theme for Ghost created in [Tailwind CSS](https://tailwindcss.com/) by [Tailwind Toolbox](https://www.tailwindtoolbox.com/).
+`PT7210027 Mark Tan, SGBT4`
+
+This website is a clone of the Casper theme for Ghost created in [Tailwind CSS](https://tailwindcss.com/) by [Tailwind Toolbox](https://www.tailwindtoolbox.com/).
 
 
-[![Ghostwind Home Page](https://www.tailwindtoolbox.com/templates/ghostwind-home.png)](https://tailwindtoolbox.github.io/Ghostwind/index.html)
-
-[![Ghostwind](https://www.tailwindtoolbox.com/templates/ghostwind.png)](https://tailwindtoolbox.github.io/Ghostwind/post.html)  
+[![Madhatter Home Page](./img/home.png)](https://github.com/markvelous/madhatter)
 
 Click here to [preview the homepage](https://www.tailwindtoolbox.com/templates/ghostwind-home)
 
