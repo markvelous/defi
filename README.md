@@ -1,7 +1,5 @@
 # INTERMEDIATE BLOCKCHAIN FINAL ASSIGNMENT
 
-`PT7210027 Mark Tan, SGBT4`
-
 This website is a clone of the Casper theme for Ghost created in [Tailwind CSS](https://tailwindcss.com/) by [Tailwind Toolbox](https://www.tailwindtoolbox.com/).
 
 
